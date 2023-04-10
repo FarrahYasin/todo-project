@@ -10,9 +10,9 @@ if (result == true) {
 
     let Gender = prompt('Please enter your Gender!');
       if(Gender == 'male') {
-        alert('Welcome Mr', Username)
+        alert('Welcome Mr'+ Username)
       } else if (Gender == 'female') {
-        alert('Welcom Ms' , Username)
+        alert('Welcom Ms' + Username)
       } else {
         alert(' ')
       }
