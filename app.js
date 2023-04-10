@@ -3,16 +3,15 @@ var result = confirm('Did you want to skip the welcoming message?');
 
 if (result == true) {
    
-   
     } else {
      
     let Username = prompt('Please Enter Your Name');
 
     let Gender = prompt('Please enter your Gender!');
       if(Gender == 'male') {
-        alert('Welcome Mr', Username)
+        alert('Welcome Mr '+ Username)
       } else if (Gender == 'female') {
-        alert('Welcom Ms' , Username)
+        alert('Welcom Ms ' + Username)
       } else {
         alert(' ')
       }
