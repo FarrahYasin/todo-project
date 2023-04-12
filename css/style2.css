@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    width: 100%;
+    /* background-color: rgb(206, 116, 116); */
+    /* border: 5px solid rgb(157, 91, 63); */
+    height:1000px ;
+}
+header{  
+     /* border: 5px solid rgb(190, 25, 219); */
+    border-radius: 2%;
+    background-color:#3B6978;   
+    height: 8%; 
+
+}
+header .logo{
+    width: 5.5%;
+    height: 100%;
+    border-radius: 1%;
+    /* border: 5px solid rgb(43, 255, 0); */
+
+}
+header h1{
+    /* border: 5px solid rgb(217, 255, 0); */
+    font-family:monospace;
+    font-weight: bold;
+
+    padding-left: 7%; 
+    margin-top: -3.5%;  
+    font-size: 30px; 
+    
+
+}
+
+ header .right nav{
+        display: flex;
+        /* border: 5px solid blue; */
+        margin-bottom:2.5%;  
+        width: 100%;  
+}
+header .right nav a{
+    /* border: 5px solid rgb(0, 217, 255); */
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top:-1.5%; 
+    display: inline-block;
+    padding-left:300px;  
+    /* width: 60%;    */
+
+
+}
+header .right nav a:hover{
+    color:beige
+}
+footer{
+    background-color: #3B6978;
+    margin-top: 340px;
+    height:60px;
+    text-align: center;
+    padding-top:2.5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 1.3%;
+    /* border: 5px solid rgb(0, 255, 17); */
+
+}
+
+h3{
+    text-shadow: 3px 5px 1px #b0bec3;
+     color: #3B6978;
+     font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:77px;
+    padding-bottom: 46px;
+    padding-left: 42%;
+
+    /* border: 5px solid rgb(25, 67, 28); */
+
+}
+
+div table{
+    border-collapse: collapse;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+
+   }
+   
+   div table th, td {
+    border: 2px solid black;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family:cursive;
+
+  
+   }
+   
+  div table tr .done1{
+    color:rgb(21, 138, 21);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+ }
+ div table tr .done2{
+    color:rgb(21, 138, 21);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+ }
+ div table tr .done3{
+    color:rgb(21, 138, 21);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+ }
+ div table tr .done4{
+    color:rgb(202, 32, 32);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+ }
+
+
+ /* for about page */
+ section .img_ifo{
+    border-radius: 48%;
+    width: 20%;
+    margin-left: 60px;
+    margin-top: -14%;  
+
+ }
+ section h3{
+    color: rgb(214, 29, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+
+    margin-left: 1%; 
+    padding-top: 5%;  
+    padding-bottom: 1%;  
+
+
+
+}
+section p{
+    border: 1px solid rgb(84, 82, 82);
+    font-size:100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2px;
+    width: 50%;
+    margin-top: 2.5%;/*-0.5%*/
+    margin-left: 30%;;
+    text-align:center;
+
+}
+section h4{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 44%;
+    text-shadow: rgb(232, 52, 52) 4px 0 5px;
+        margin-bottom: 2.5%; /**/
+
+}
+section form{
+    /* padding-left: 33%; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+}
+section form .l1 {
+    padding-right:33%;
+    font-weight: bold;
+}
+section form .l2 {
+    padding-right:33%;
+    font-weight: bold;
+
+}
+section form .l3 {
+    padding-right:33%;
+    font-weight: bold;
+
+}
+section form .l4 {
+    padding-right:33%;
+    font-weight: bold;
+
+    
+}
+
+section form .t1 {
+    border-radius: 2px;
+    border: black;
+    border-width: 1px;
+    width: 260px;
+    height: 28px;
+    padding: px 0px;
+    border-style: groove;
+    /* border-spacing: 200px; */
+    
+}
+section form .t2{
+    border: black;
+    border-width: 1px;
+    border-radius: 2px;
+    width: 260px;
+    height: 28px;
+    border-style: groove;
+    /* border-spacing: 200px; */
+    
+}
+section form .t3{
+    border-radius: 2px;
+    border: black;
+    border-width: 1px;
+    width: 260px;
+    height: 28px;
+    border-style: groove;
+    /* border-spacing: 200px; */
+    
+}
+section form .t4{
+    border-radius: 2px;
+    border: black;
+    width: 260px;
+    height: 90px;
+    border-width: 1px;
+    border-style: groove;
+    /* border-spacing: 20px; */
+    
+}
+button{
+    color:black;
+    font-weight: bold;
+
+    background-color:rgb(153, 139, 255);
+    border-color: rgb(153, 139, 255);
+    width: 10%;
+    height: 30px;
+    border-radius: 2px;
+    /* margin-left: 28%; */
+    margin-top: 1%;
+    align-items:center;
+
+    }
+ 
