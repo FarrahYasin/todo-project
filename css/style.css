@@ -9,20 +9,17 @@ header{
     padding-left:300px;
 
 
-}  header .right nav ul li{
+} 
+ header .right nav ul li{
     display: inline-block;
-
 }
 
 header .right nav ul li a{
-
     display: inline-block;
     text-decoration: none;
     color: black;
     /* padding-top: 30%; */
     margin-top: 20px;     /* */
-
-
 }
 
    header .logo{
