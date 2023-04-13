@@ -29,60 +29,66 @@ if (result == true) {
 
 
   // lab 06
-  
+   let arr = [];
+    // 1- create a function that takes a question as a parameter and prompts the 
+    // question then returns the answer.
 
-
-var arr = [];
-
-var userInputQ1 = prompt('Are you a student?');
-var userInputQ2 = prompt('Are you in your final year of university?');
-var userInputQ3 = prompt('Do you prefer online education?');
-
-
-let pushToArr = (userInputQ1, userInputQ2, userInputQ3) => {
-
-    // arr = arr.push(userInputQ1,userInputQ2, userInputQ3);
-    arr.push(userInputQ1, userInputQ2, userInputQ3);
-    //  console.log(arr[i]);
-  return arr;
-  
-  }
-  // pushToArr();
-  
-  let printArr = (arr) => {
-
-    for (let i = 0; i < arr.length; i++) {
-     console.log(arr[i]);
+  let ask= (q)=>{
+     let answers = prompt(q);
+     return answers;
       
     }
+    // 2- call this function on three questions.
+    let ans1 = ask('Are you a student?');
+    let ans2 = ask('Are you in your final year of university?');
+    let ans3 = ask('Do you prefer online education?');
     
+      // ask(ans1);
+      // ask(ans2);
+      // ask(ans3);
+
+
+
+ let pushToArr = (ans1, ans2, ans3) => {
+
+  arr.push(ans1, ans2, ans3);
+   
+  return arr;
+
+}
+
+ pushToArr(ans1, ans2, ans3);
+
+ let printArr = (arr) => {
+  for (let i = 0; i < arr.length; i++) {
+   console.log(arr[i]);
     }  
-
-let checkUserInput = (userInputQ1, userInputQ2, userInputQ3) => {
-
-    if(userInputQ1 === 'Yes' || userInputQ2 === 'Yes' || userInputQ3 ==='Yes') {
-      return 'Yes' + pushToArr(userInputQ1, userInputQ2, userInputQ3) + printArr(arr);
-
-    }else if(userInputQ1 === 'No'  || userInputQ2 === 'No' || userInputQ3 ==='No') {
-      return 'No' +pushToArr(userInputQ1, userInputQ2, userInputQ3) + printArr(arr);
-    }
-    else if(userInputQ1 === '' && userInputQ2 === '' && userInputQ3 === '' ){
-      console.log('Invalid');// if the answers was empty 
-    }
-    else 
-      console.log('you should answer Yes or No only!'); 
-  }
-
-// var userInputQ1 = prompt('Are you a student?');
-// var userInputQ2 = prompt('Are you in your final year of university?');
-// var userInputQ3 = prompt('Do you prefer online education?');
-
-// var results = checkUserInput(userInputQ1,userInputQ2,userInputQ3);
-checkUserInput(userInputQ1,userInputQ2,userInputQ3);
+  }          
 
 
+      // 4- create a function to loop through the answers array and check each element if it 
+      // is empty then replace it with "invalid" string.
+          let loopThroughTheAnswers = (arr) => {
 
+          for (let i = 0; i < arr.length; i++) {
+              if(arr[0] ===''){
+                arr[0]="invalid";
+               }
+              else if(arr[1] ==='') {
+                arr[1]="invalid";
+             }
+              else if(arr[2] === ''){
+              arr[2] = 'invalid';
 
+             }
+
+        }
+        
+        }
+        loopThroughTheAnswers(arr); 
+        printArr(arr);
+
+      
 
 
 
